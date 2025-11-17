@@ -1,37 +1,37 @@
 ﻿
-// Автор: Боян Ангелов Мирчев
-// Факултетен номер: F113037
-// Файл: Calculator.cs
-// Описание: Клас, съдържащ основните операции на калкулатора,
-// събиране, изваждане, умножение и деление.
-// Използван принцип: Инкапсулация – логиката е отделена от слоя на
-// User Interface-a.
+// Author: Boyan Angelov Mirchev
+// Faculty number: F113037
+// File: Calculator.cs
+// Description: A class containing the main operations of the calculator:
+// addition, subtraction, multiplication, and division.
+// Principle used: Encapsulation – the logic is separated from the User Interface layer.
 
 namespace Calc.Models
 {
-    // Клас Calculator съдържа методи за основните аритметични операции
-    // събиране, изваждане, умножение и деление.
+    // The Calculator class contains methods for the basic arithmetic operations:
+    // addition, subtraction, multiplication, and division.
     public class Calculator
     {
 
-        // Това е сумата, +  съответно Add. 
-        
+        // This is the sum, + respectively Add.
         public double Add(double a, double b)
         {
             return a + b;
         }
 
-        //Това е разликата, -  съответно Subtract.
+        // This is the difference, - respectively Subtract.
         public double Subtract(double a, double b)
         {
             return a - b;
         }
-        //  Тук е произведението - Multiply
+
+        // Here is the product – Multiply.
         public double Multiply(double a, double b)
         {
             return a * b;
         }
-        // И частното на две числа - Divide
+
+        // And the quotient of two numbers – Divide.
         public double Divide(double a, double b)
         {
             return a / b;
